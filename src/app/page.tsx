@@ -41,7 +41,7 @@ export default function Home() {
           <Sprout className="h-5 w-5 text-emerald-400" />
           <span className="text-sm font-semibold tracking-tight">AgroEdge</span>
         </div>
-        <a
+        
           href="#"
           className="rounded-full border border-white/15 px-4 py-2 text-xs font-medium text-white/80 transition hover:border-white/30 hover:text-white"
         >
@@ -77,14 +77,16 @@ export default function Home() {
               </p>
 
               <div className="mt-8 flex flex-wrap items-center gap-3 md:mt-10">
-                <a
-                  href="#"
+                
+                  href="https://homepy-dfudpukc6mugvypgwkticj.streamlit.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-medium text-black transition hover:bg-white/90"
                 >
                   Get started
                   <ArrowRight className="h-4 w-4" />
                 </a>
-                <a
+                
                   href="#features"
                   className="rounded-full border border-white/20 px-6 py-3 text-sm text-white/80 transition hover:border-white/40 hover:text-white"
                 >
